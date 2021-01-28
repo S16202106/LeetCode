@@ -11,7 +11,7 @@ public class Union {
         for(int i=0;i<n;i++)
             id[i]=i;
     }
-    // 在点p和q之间添加一条连接
+    // 在点p和q之间添加一条连接 在图中如果点p和点q连接 同时合并p和q的连通分量 quick-union 算法 快速链接
     void union(int p,int q){
         id[q]=id[p];
     }
