@@ -44,6 +44,7 @@ public class QuickUnion {
         int temp = p;
         while (temp != id[temp]) temp = id[temp];
         return temp;
+
     }
 
     // 判断p和q是否存在于同一个分量中
